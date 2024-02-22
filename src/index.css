@@ -1,13 +1,100 @@
 body {
+  background-color: #000; /* Set background color to black */
+  font-family: 'Avenir', sans-serif; /* Change font family */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the body full screen height */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  background-color: #222; /* Set app background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); /* Add a cyberpunk-themed shadow */
+  width: 80%; /* Set width of the app */
+  max-width: 600px; /* Limit maximum width */
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  color: #0ff; /* Set question count color */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  color: #0ff; /* Set question text color */
+  font-size: 24px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #00ff00; /* Set button background color */
+  border: none;
+  color: #000; /* Set button text color */
+  font-size: 16px;
+  font-family: 'Avenir', sans-serif;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ff; /* Change button background color on hover */
+}
+
+.result-section {
+  text-align: center;
+}
+
+.result-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.result-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.result-section.ux-researcher {
+  background-color: #00ff00; /* Green for UX Researcher */
+}
+
+.result-section.ux-strategist {
+  background-color: #ff00ff; /* Purple for UX Strategist */
+}
+
+.result-section.ux-designer {
+  background-color: #0000ff; /* Blue for UX Designer */
+}
+
+.result-section.ux-storyteller {
+  background-color: #ffff00; /* Yellow for UX Storyteller */
+}
+
+button {
+  color: #000;
+  background-color: #0ff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ff00;
 }
