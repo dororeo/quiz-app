@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './index.css'; // Import your CSS file for styling
+import './index.css';
 
 const questions = [
   {
@@ -24,7 +24,7 @@ const questions = [
     questionText: 'If you could speak any language, what would it be?',
     answerOptions: [
       { answerText: 'The language of the stars', result: 'UX Researcher', resultDesc: 'You seek to understand the cosmos and unravel the mysteries of the universe.' },
-      { answerText: 'The language of symbols', result: 'UX Strategist', resultDesc: 'You decipher hidden meanings and use symbols to communicate complex ideas.' },
+      { answerText: 'The language of cosmos', result: 'UX Strategist', resultDesc: 'You decipher hidden meanings and use symbols to communicate complex ideas.' },
       { answerText: 'The language of nature', result: 'UX Designer', resultDesc: 'You find inspiration in the world around you, using nature\'s language to design meaningful experiences.' },
       { answerText: 'The language of dreams', result: 'UX Storyteller', resultDesc: 'You explore the subconscious and give voice to the subconscious through storytelling.' },
     ],
